@@ -15,6 +15,30 @@
         android:text="@string/myName"
         style="@style/style" />
 
+    <EditText
+        android:id="@+id/nickname_edit"
+        style="@style/style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="What is your nickname?"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Done" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        style="@style/style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:visibility="gone" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
